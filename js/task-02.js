@@ -29,3 +29,9 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+
+const markup = images.map(image => <li>
+  <img src='https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='White and Black Long Fur Cat' />
+</li>);
+
+console.log(Array.prototype.toString.markup());
