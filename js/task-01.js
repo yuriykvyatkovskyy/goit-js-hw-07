@@ -1,4 +1,4 @@
-console.log('Task-01')
+console.log('Task-01');
 
 let listItem = document.querySelectorAll('li.item');
 const calcItem = listItem.length;

@@ -1,4 +1,4 @@
-console.log('Task-02')
+console.log('Task-02');
 
 const images = [
   {

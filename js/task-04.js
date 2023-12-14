@@ -1,7 +1,7 @@
-console.log('Task-04')
+console.log('Task-04');
 
 const loginForm = document.querySelector('.login-form');
-const register = () => {
+function register(event) {
         event.preventDefault();
     const emailValue = loginForm.elements.email.value.trim();
     const passwordValue = loginForm.elements.password.value.trim();
@@ -9,6 +9,7 @@ const register = () => {
         alert('All form fields must be filled in');
         return;
     };
+
     const formData = {
         email: emailValue,
         password: passwordValue,
@@ -16,4 +17,5 @@ const register = () => {
     console.log(formData);
     loginForm.reset();
 };
+
 loginForm.addEventListener('submit', register);
