@@ -13,6 +13,16 @@ body {
     line-height: 1.5;
 }
 
+input {
+    padding: 8px;
+    font: inherit;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
 /* Task-2 */
 .gallery {
     display: flex;
@@ -37,4 +47,25 @@ img {
     object-fit: cover;
     max-width: 100%;
     height: 300px;
+}
+
+/* Task-5 */
+.widget{
+    text-align: center;
+}
+
+.widget p {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 48px;
+}
+
+.widget span {
+    font-family: monospace;
+}
+
+.widget button {
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
 }
